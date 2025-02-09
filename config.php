@@ -1,9 +1,9 @@
 <?php
 
 $server = "localhost";
-$username = "bluebird_user";
+$username = "holidayinn";
 $password = "password";
-$database = "bluebirdhotel";
+$database = "holidayinn";
 
 $conn = mysqli_connect($server,$username,$password,$database);
 

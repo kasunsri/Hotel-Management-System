@@ -193,16 +193,16 @@ ul li a:hover{
 }
 
 .h1{
-    background-image: url(../image/hotel1photo.webp);
+    background-image: url(../image/hotel1photo.png);
 }
 .h2{
-    background-image: url(../image/hotel2photo.jpg);
+    background-image: url(../image/hotel2photo.png);
 }
 .h3{
-    background-image: url(../image/hotel3photo.avif);
+    background-image: url(../image/hotel3photo.png);
 }
 .h4{
-    background-image: url(../image/hotel4photo.jpg);
+    background-image: url(../image/hotel4photo.png);
 }
 
 .roomdata{
@@ -272,7 +272,7 @@ font-size: 30px;
 }
 
 .box:nth-child(1){
-    background-image: url(../image/swimingpool.jpg);
+    background-image: url(../image/SwimingPool.png);
     background-size: cover;
 }
 .box:nth-child(2){
@@ -280,15 +280,15 @@ font-size: 30px;
     background-size: cover;
 }
 .box:nth-child(3){
-    background-image: url(../image/food.jpg);
+    background-image: url(../image/food.png);
     background-size: cover;
 }
 .box:nth-child(4){
-    background-image: url(../image/gym.jpg);
+    background-image: url(../image/Gym.jpeg);
     background-size: cover;
 }
 .box:nth-child(5){
-    background-image: url(../image/heli.jpg);
+    background-image: url(../image/Heli.png);
     background-size: cover
 }
 

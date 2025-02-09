@@ -3,13 +3,13 @@ START TRANSACTION;
 SET time_zone = "+00:00";
 
 
-DROP DATABASE IF EXISTS bluebirdhotel;
-CREATE DATABASE IF NOT EXISTS bluebirdhotel;
+DROP DATABASE IF EXISTS holidayinn;
+CREATE DATABASE IF NOT EXISTS holidayinn;
 
-DROP USER IF EXISTS'bluebird_user'@'%';
-CREATE USER IF NOT EXISTS 'bluebird_user'@'%' IDENTIFIED BY 'password';
-GRANT ALL PRIVILEGES ON bluebirdhotel.* TO 'bluebird_user'@'%';
-USE bluebirdhotel;
+
+CREATE USER IF NOT EXISTS 'holidayinn'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON holidayinn.* TO 'holidayinn'@'localhost';
+USE holidayinn;
 
 
 
@@ -122,7 +122,7 @@ CREATE TABLE `staff` (
 INSERT INTO `staff` (`id`, `name`, `work`) VALUES
 (1, 'Kasun Sri', 'Manager'),
 (3, 'Sahan ', 'Cook'),
-(4, 'pranama', 'Cook'),
+(4, 'padpathum', 'Cook'),
 (5, 'pathum', 'Helper'),
 (6, 'perera', 'Helper'),
 (7, 'janindu', 'cleaner'),

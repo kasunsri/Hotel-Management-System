@@ -44,7 +44,7 @@ if($usermail == true){
 <body>
   <nav>
     <div class="logo">
-      <img class="bluebirdlogo" src="./image/bluebirdlogo.png" alt="logo">
+      <img class="bluebirdlogo" src="./image/logo.jpg" alt="logo">
       <p>Holiday Inn</p>
     </div>
     <ul>
