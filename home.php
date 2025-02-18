@@ -49,7 +49,7 @@ if($usermail == true){
     </div>
     <ul>
       <li><a href="#firstsection">Home</a></li>
-      <li><a href="#secondsection">Rooms</a></li>
+      <li><a href="#secondsection">HOtel Rooms</a></li>
       <li><a href="#thirdsection">Facilites</a></li>
       <li><a href="#contactus">contact us</a></li>
       <a href="./logout.php"><button class="btn btn-danger">Logout</button></a>
