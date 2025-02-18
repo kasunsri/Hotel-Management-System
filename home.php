@@ -44,12 +44,12 @@ if($usermail == true){
 <body>
   <nav>
     <div class="logo">
-      <img class="bluebirdlogo" src="./image/bluebirdlogo.png" alt="logo">
+      <img class="bluebirdlogo" src="./image/logo.jpg" alt="logo">
       <p>Holiday Inn</p>
     </div>
     <ul>
       <li><a href="#firstsection">Home</a></li>
-      <li><a href="#secondsection">Rooms</a></li>
+      <li><a href="#secondsection">HOtel Rooms</a></li>
       <li><a href="#thirdsection">Facilites</a></li>
       <li><a href="#contactus">contact us</a></li>
       <a href="./logout.php"><button class="btn btn-danger">Logout</button></a>
