@@ -36,5 +36,7 @@ The Hotel Management System is built with a **modular architecture** to ensure s
 ![Admin Dashboard - Room Management](image/A2.jpg)  
 ![Admin Dashboard - Reporting](image/A3.jpg)  
 
+### Payment
+![User Interface - Payment](image/P1.jpg)  
 ---
 
