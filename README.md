@@ -21,7 +21,7 @@ The Hotel Management System is built with a **modular architecture** to ensure s
 
 ## Technologies Used 💻
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** RESTful APIs
+- **Backend:** PHP
 - **Database:** MySQL
 
 ## Screenshots 📸
