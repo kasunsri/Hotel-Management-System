@@ -1,36 +1,40 @@
 # Hotel Management System
 
 ## Overview
-The Hotel Management System is a robust and scalable application designed to streamline hotel operations and enhance guest services. It provides comprehensive functionalities—from room and reservation management to billing, reporting, and secure user authentication—ensuring efficiency and reliability in daily hotel operations.
+The **Hotel Management System** is a comprehensive and scalable application designed to streamline hotel operations and enhance guest services. It offers a wide range of functionalities, including room and reservation management, customer management, billing, reporting, and secure user authentication. This system ensures operational efficiency, reliability, and an improved guest experience.
 
-## Table of Contents
-1. [Overview](#overview)
-2. [Features](#features)
-3. [Architecture](#architecture)
-4. [Technologies Used](#technologies-used)
+## Key Features ✨
+- **Room Management:** Effortlessly create, update, and manage room records, including room types, availability, and occupancy status.
+- **Reservation System:** Handle bookings, cancellations, check-ins, and check-outs seamlessly with an intuitive interface.
+- **Customer Management:** Securely store and manage guest information, including personal details and booking history.
+- **Billing and Invoicing:** Automate billing processes with detailed invoicing, payment tracking, and support for multiple payment methods.
+- **Reporting and Analytics:** Generate real-time operational reports and performance analytics to support data-driven decision-making.
+- **Security:** Implement role-based access control (RBAC) with robust authentication and authorization mechanisms to ensure data security.
 
-## Features
-- **Room Management:** Create, update, and manage room records including types and occupancy status.
-- **Reservation System:** Seamlessly handle bookings, cancellations, and check-ins/outs.
-- **Customer Management:** Securely store and manage guest information.
-- **Billing and Invoicing:** Automated billing processes with detailed invoicing and payment tracking.
-- **Reporting and Analytics:** Generate real-time operational reports and performance analytics.
-- **Security:** Role-based access control with robust authentication and authorization mechanisms.
+## System Architecture
+The Hotel Management System is built with a **modular architecture** to ensure scalability, maintainability, and ease of future enhancements. The key components include:
 
-## Architecture
-The system is built with a modular architecture to support easy maintenance and future enhancements. Key components include:
-- **Frontend:** A responsive web interface for both administrators and customers.
-- **Backend:** RESTful APIs that encapsulate the business logic and data handling.
-- **Database:** A relational database for persistent and secure data storage.
-- **Security Layer:** Integrated security measures such as encryption and secure session management.
+- **Frontend:** A responsive and user-friendly web interface designed for both administrators and guests, ensuring a seamless experience across devices.
+- **Backend:** RESTful APIs that encapsulate the core business logic, data processing, and integration with external services.
+- **Database:** A relational database (MySQL) for secure and efficient data storage, ensuring data integrity and reliability.
+- **Security Layer:** Advanced security measures, including data encryption, secure session management, and role-based access control.
 
-## Technologies Used
-- **Programming Language:** HTML, CSS, JavaScript
+## Technologies Used 💻
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** RESTful APIs
 - **Database:** MySQL
 
-### Setup Instructions
+## Screenshots 📸
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/hotel-management-system.git
-   cd hotel-management-system
+### User Interface
+![User Interface - Booking](image/U1.jpg)  
+![User Interface - Room Selection](image/U2.jpg)  
+![User Interface - Payment](image/U3.jpg)  
+
+### Admin Dashboard
+![Admin Dashboard - Overview](image/A1.jpg)  
+![Admin Dashboard - Room Management](image/A2.jpg)  
+![Admin Dashboard - Reporting](image/A3.jpg)  
+
+---
+
