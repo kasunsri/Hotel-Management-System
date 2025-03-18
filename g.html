@@ -1,34 +1,3 @@
-<?php
-require_once $_SERVER['DOCUMENT_ROOT'] . '/config.php';
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-session_start();
-// ... rest of your code
-
-
-if (!$conn) {
-    die("Database connection failed: " . mysqli_connect_error());
-}
-
-// Get booking details
-$booking_id = isset($_GET['id']) ? intval($_GET['id']) : 0;
-$amount = isset($_GET['amount']) ? floatval($_GET['amount']) : 0;
-
-
-// Fetch booking details from database
-$sql = "SELECT * FROM roombook WHERE id='$booking_id'";
-$result = mysqli_query($conn, $sql);
-$booking = mysqli_fetch_assoc($result);
-
-if(!$booking) die("Invalid booking request");
-
-// Calculate nights
-$checkin = new DateTime($booking['cin']);
-$checkout = new DateTime($booking['cout']);
-$nights = $checkout->diff($checkin)->days;
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
